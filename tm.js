@@ -103,7 +103,7 @@ const clear_all_messages = () => {
     container.innerHTML = "";
 }
 const render_all_messages = () => {
-    for (let message of displayed_chats.slice(0,10)) {
+    for (let message of displayed_chats.slice(0,200)) {
         // remove this for testing with personal chat
         if(message.group == "Gabe Ochoa"){
             continue;
